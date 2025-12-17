@@ -1,0 +1,7 @@
+#! /bin/bash
+
+if [ -f "test.sh" ]; then
+	echo "File is present"
+else
+	echo "File is not present"
+fi
